@@ -1,0 +1,261 @@
+/* Página em Si*/
+
+body {
+    background-color: #f1f0ec;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.divisor {
+  border: none;
+  border-top: 1px solid #b3bac9;
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+/* Cabeçalho */
+
+.Cabeçalho {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.texto-cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-principal {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.slogan {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+.logo {
+    background-color: #1e293b;
+    padding: 10px;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+
+.icon_logo {
+    background-color: #4d3c4b71;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+/* ESPAÇO GOSTOS */
+
+.gostos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.gostos h1 {
+    font-size: xx-large;
+}
+
+.espaco_gostos{
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin: 0;
+}
+
+.mini_espaco_gostos{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+}
+
+.gostos_texto{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.gostos_texto h2{
+    margin: 0;
+}
+
+.espaco_gostos_img{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.lista-passos{
+    list-style: none;
+    padding: 0;
+    margin-top: 5px 0 0 0;
+    margin-bottom: 0;
+}
+
+.lista-passos li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.numero-lista {
+  background-color: #1e293b;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.lista-passos p {
+    margin: 0;
+    padding-top: 2px;
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.4;
+}
+
+.sub_logo {
+    background-color: #1a0d47;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.titulo-filmes {
+    justify-self: center;
+}
+
+.espaco_filmes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartao_filme {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-filme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #1e293b;
+    color: #1e293b;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.titulo-doces {
+    justify-self: center;
+}
+
+.espaco_doces {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartao_doce {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+footer {
+    margin-top: 40px;
+    left: 40px;
+    right: 40px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-top: 4px solid #768dac;
+    color: #64748b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.marca-rodape {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.integrantes {
+    font-size: 14px;
+}
+
+.integrantes strong {
+    color: #1e293b;
+}
